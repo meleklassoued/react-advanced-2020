@@ -1,10 +1,10 @@
 import React from "react";
-import Error from "./tutorial/1-useState/setup/1-error-example";
+import UseStateObject from "./tutorial/1-useState/setup/4-useState-object.js";
 
 function App() {
   return (
     <div className='container'>
-     <Error></Error>
+      <UseStateObject />
     </div>
   );
 }
