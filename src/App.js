@@ -1,5 +1,5 @@
 import React from "react";
-import Counter from "./tutorial/1-useState/final/5-useState-counter.js";
+import Counter from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
 
 function App() {
   return (
