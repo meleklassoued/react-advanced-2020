@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 // JS
 // const input = document.getElementById('myText');
 // const inputValue = input.value
