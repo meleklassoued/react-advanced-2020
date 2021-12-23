@@ -1,10 +1,10 @@
 import React from "react";
-import SetUp from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
+import UseRefBasics from "./tutorial/5-useRef/setup/1-useRef-basics";
 
 function App() {
   return (
     <>
-      <SetUp />
+      <UseRefBasics />
     </>
   );
 }
