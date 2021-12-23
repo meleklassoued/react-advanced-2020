@@ -1,20 +1,22 @@
 import React from "react";
 
-
-function ErrorExample() {
-  let title = "random title ";
-  const handleClick = () => {
-    title = "hello people";
-    console.log(title);
-  };
+function Actionlink() {
+  const Numbers = [1, 2, 3];
+  const NewNumbers = Numbers.filter((N) => N !== 1);
   return (
     <>
-      <h2>{title}</h2>
-      <button type='button ' className='btn' onClick={handleClick}>
-        change Tile
-      </button>
+      <ul>
+        {Numbers.map((N) => (
+          <li>{N}</li>
+        ))}
+      </ul>
+      <ul>
+        {NewNumbers.map((N) => (
+          <li>{N}</li>
+        ))}
+      </ul>
     </>
   );
 }
 
-export default ErrorExample;
+export default Actionlink;

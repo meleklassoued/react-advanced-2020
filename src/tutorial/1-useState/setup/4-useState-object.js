@@ -7,17 +7,19 @@ const UseStateObject = () => {
     message: "random message",
   });
   const changeMessage = () => {
-    setPerson({ ...person, message: "hello world" });
+    if (person.message === "random message") {
+      setPerson({ ...person, message: "omek el KA7ba ennikha ena " });
+    } else {
+      setPerson({ ...person, message: "random message" });
+    }
   };
   /* ------------------------------- set message ------------------------------ */
   return (
     <>
       <h3>{person.name}</h3>
-      <h3>{person.age}</h3>
-      <h4>{person.message}</h4>
-      <button className='btn' onClick={changeMessage}>
-        change messge
-      </button>
+      <h2>{person.age}</h2>
+      <h2>{person.message}</h2>
+      <button onClick={changeMessage}>enzel Bro</button>
     </>
   );
 };
