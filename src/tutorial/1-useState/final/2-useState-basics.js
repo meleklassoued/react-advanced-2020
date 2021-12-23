@@ -18,7 +18,6 @@ const UseStateBasics = () => {
       setText('random title');
     }
   };
-  
 
   return (
     <React.Fragment>
